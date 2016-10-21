@@ -2,6 +2,8 @@
 
 This repo is for reference of a legacy issue that should now be resolved. 
 
+https://danielgibbs.co.uk/2013/11/hlds-steamcmd-workaround-appid-90/
+
 **UPDATE: It appears that Valve may of resolved this issue as I have tested without using the files and it now works first time. I will however leave the details here for reference.**
 
 HLDS (GoldSrc) games use appid 90 to download  the server files from SteamCMD. There is a bug that requires you to try and download the serverfiles many times before it starts downloading all the assets. I have found a fix to this problem (After much trial and error).
