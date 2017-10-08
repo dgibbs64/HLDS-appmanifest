@@ -49,7 +49,7 @@ It is recommended that you try and download a few times just to make sure everyt
 # Linux One-Liners
 These one-line scripts can be used to quickly download all the required `appmanifest` files. Ensure you are in the `steamapps` directory and run the relevant script.
 
-Thanks to @Arkshine for coming up with the [idea](https://github.com/Arkshine/hlds-appmanifest/).
+Thanks to [@Arkshine](https://github.com/Arkshine) for coming up with the [idea](https://github.com/Arkshine/hlds-appmanifest/).
 
 ## Counter-Strike 1.6
     for i in 10 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/CounterStrike/appmanifest_$i.acf -O appmanifest_$i.acf; done
