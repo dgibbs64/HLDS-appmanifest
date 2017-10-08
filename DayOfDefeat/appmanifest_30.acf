@@ -1,0 +1,24 @@
+"AppState"
+{
+        "appid"         "30"
+        "Universe"              "1"
+        "name"          "Day of Defeat"
+        "StateFlags"            "68"
+        "installdir"            "Half-Life"
+        "LastUpdated"           "1488687052"
+        "UpdateResult"          "0"
+        "SizeOnDisk"            "391760481"
+        "buildid"               "63575"
+        "LastOwner"             "0"
+        "BytesToDownload"               "0"
+        "BytesDownloaded"               "0"
+        "AutoUpdateBehavior"            "0"
+        "AllowOtherDownloadsWhileRunning"               "0"
+        "UserConfig"
+        {
+        }
+        "MountedDepots"
+        {
+                "31"            "7825843816878535126"
+        }
+}

@@ -1,37 +1,32 @@
 # HLDS-appmanifest
+> Update October 2017:  It seems this issue has returned after Valve fixed it several years ago. I have updated this repo with new app_manifest files for each server. Hopefully Valve fix the issue again.
 
-This repo is for reference of a legacy issue that should now be resolved. 
+HLDS (GoldSrc) games use `appid 90` to download the game server files from SteamCMD.
+There is a bug that prevents all the files being downloaded from SteamCMD.
+Getting all the files can take any number of attempts for SteamCMD to download them all.
 
-https://danielgibbs.co.uk/2013/11/hlds-steamcmd-workaround-appid-90/
+The fix is to download completed `appmanifest` files to the `steamapps` directory.
+This fix should work with both **Windows** and **Linux** servers.
 
-**UPDATE: It appears that Valve may of resolved this issue as I have tested without using the files and it now works first time. I will however leave the details here for reference.**
+# HLDS Servers
 
-HLDS (GoldSrc) games use appid 90 to download  the server files from SteamCMD. There is a bug that requires you to try and download the serverfiles many times before it starts downloading all the assets. I have found a fix to this problem (After much trial and error).
+This fix applied to the following servers:
 
-This fix should work with both Windows and Linux servers.
-
-*update: I have found that the -beta beta flag is not really required. Only the correct appmanifest files are required.*
-
-HLDS Servers
-
-Servers this fix is useful for.
-
-HLDS for Half-Life and Counter-Strike 1.6	90
-Counter-Strike: Condition Zero dedicated server	90	+app_update 90 +app_set_config “90 mod czero”
-Deathmatch Classic dedicated server	90	+app_update 90 +app_set_config “90 mod dmc”
-Day of Defeat dedicated server	90	+app_update 90 +app_set_config “90 mod dod”
-Half-Life: Opposing Force dedicated server	90	+app_update 90 +app_set_config “90 mod gearbox”
-Ricochet dedicated server	90	+app_update 90 +app_set_config “90 mod ricochet”
-Team Fortress Classic dedicated server	90	+app_update 90 +app_set_config “90 mod tfc”
+ - Half-Life Deathmatch Dedicated Server `+app_update 90`
+ - Counter-Strike 1.6  Dedicated Server `+app_update 90 +app_set_config “90 mod cstrike`
+ - Counter-Strike: Condition Zero dedicated server	`+app_update 90 +app_set_config “90 mod czero”`
+ - Deathmatch Classic dedicated server	`+app_update 90 +app_set_config “90 mod dmc”`
+ - Day of Defeat dedicated server	`+app_update 90 +app_set_config “90 mod dod”`
+ - Half-Life: Opposing Force dedicated server	`+app_update 90 +app_set_config “90 mod gearbox”`
+ - Ricochet dedicated server `+app_update 90 +app_set_config “90 mod ricochet”`
+ - Team Fortress Classic dedicated server `+app_update 90 +app_set_config “90 mod tfc”`
 
 How to Fix
 =========
 
-I found the workaround while working on Linux Game Server Managers.
+This workaround was discovered while working on [LinuxGSM](https://gameservermanagers.com).
 
-To fix the problem you require the correct appmanifest files to be pre-installed in the game server directory as for some reason the ones SteamCMD downloads rarely work first time.
-
-Install the Server
+## Install the Server
 
 Try downloading the server assets from SteamCMD once as you would normally.
 
@@ -39,44 +34,14 @@ For example:
 
     ./steamcmd.sh +login anonymous +force_install_dir "/home/csserver/serverfiles" +app_update 90 +app_set_config 90 mod czero validate +quit
 
-You will notice that the download completed quickly. This indicates that the server did not download the files correctly.
+You may notice that the download completed quickly. If this happends it indicates that the server did not download all the files correctly.
 
-Download the appmanifest files
+## Get appmanifest files
+1. Go to the `steamapps` directory which is located with your server files and delete any existing files in the directory.
+> /home/csserver/serverfiles/steamapps
 
-Once the first download attempt is completed SteamCMD will of created a directory with a long name similar to the following within the install directory:
+2. Download the `appmanifest` files for your server from this GitHub repository in to the `steamapps` directory.
 
-ec5da605084840d3d7b3ed355e48c098b28a1bd5
-appmanifest folder
+3. Retry downloading the server with SteamCMD.
 
-Delete all files in this directory.
-
-Instead download the following files to this directory.
-
-http://danielgibbs.co.uk/appmanifest_90.acf
-http://danielgibbs.co.uk/appmanifest_70.acf
-http://danielgibbs.co.uk/appmanifest_10.acf
-Retry using SteamCMD to download the server assets.
-
-Half-Life, Half-Life: Deathmatch Classic and Counter Strike assets will of now downloaded.
-
-For any servers that are a “mod”, for example +app_update 90 +app_set_config “90 mod czero” see ‘Download “mod” games’.
-
-I recommend trying to download a couple of times just to make sure everything has worked.
-
-Fix “mod” games
-
-Once completing the previous step; If you are trying to install the following games an extra step is required. Replace appmanifest_90.acf with one specific to the server you want to install from the list below.
-
-note: I am still missing some appmanifest but will add them when possible.
-
-Counter Strike: Condition Zero
-http://danielgibbs.co.uk/czero/appmanifest_90.acf
-Day of Defeat
-http://danielgibbs.co.uk/dod/appmanifest_90.acf
-Half-Life: Opposing Force
-Ricochet
-Team Fortress Classic
-http://danielgibbs.co.uk/tfc/appmanifest_90.acf
-When replaced once again run SteamCMD and the assets for that server will now download.
-
-Hopefully this will save you several hours trying to install a HLDS server.
+It is recommended that you try and download a few times just to make sure everything has worked.
