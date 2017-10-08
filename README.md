@@ -45,3 +45,32 @@ You may notice that the download completed quickly. If this happends it indicate
 3. Retry downloading the server with SteamCMD.
 
 It is recommended that you try and download a few times just to make sure everything has worked.
+
+# Linux One-Liners
+These one-line scripts can be used to quickly download all the required `appmanifest` files. Ensure you are in the `steamapps` directory and run the relevant script.
+
+Thanks to @Arkshine for coming up with the [idea](https://github.com/Arkshine/hlds-appmanifest/).
+
+##Counter-Strike 1.6
+> for i in 10 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/CounterStrike/appmanifest_$i.acf -O appmanifest_$i.acf; done
+
+##Counter-Strike: Condition Zero
+> for i in 10 70 80 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/CounterStrikeConditionZero/appmanifest_$i.acf -O appmanifest_$i.acf; done
+
+##Day of Defeat
+> for i in 10 30 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/DayOfDefeat/appmanifest_$i.acf -O appmanifest_$i.acf; done
+
+##Deathmatch Classic
+> for i in 10 40 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/DeathmatchClassic/appmanifest_$i.acf -O appmanifest_$i.acf; done
+
+##Half-Life: Deathmatch
+> for i in 10 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/HalfLifeDeathmatch/appmanifest_$i.acf -O appmanifest_$i.acf; done
+
+##Opposing Force
+>for i in 10 50 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/OpposingForce/appmanifest_$i.acf -O appmanifest_$i.acf; done
+
+##Ricochet
+for i in 10 60 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/Ricochet/appmanifest_$i.acf -O appmanifest_$i.acf; done
+
+##Team Fortress Classic
+> for i in 10 20 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/TeamFortressClassic/appmanifest_$i.acf -O appmanifest_$i.acf; done
