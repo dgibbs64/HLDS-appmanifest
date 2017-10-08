@@ -72,5 +72,5 @@ Thanks to [@Arkshine](https://github.com/Arkshine) for coming up with the [idea]
 ## Ricochet
     for i in 10 60 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/Ricochet/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
-##Team Fortress Classic
+## Team Fortress Classic
     for i in 10 20 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/TeamFortressClassic/appmanifest_$i.acf -O appmanifest_$i.acf; done
