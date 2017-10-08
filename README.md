@@ -51,25 +51,25 @@ These one-line scripts can be used to quickly download all the required `appmani
 
 Thanks to @Arkshine for coming up with the [idea](https://github.com/Arkshine/hlds-appmanifest/).
 
-##Counter-Strike 1.6
+## Counter-Strike 1.6
 > for i in 10 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/CounterStrike/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
-##Counter-Strike: Condition Zero
+## Counter-Strike: Condition Zero
 > for i in 10 70 80 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/CounterStrikeConditionZero/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
-##Day of Defeat
+## Day of Defeat
 > for i in 10 30 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/DayOfDefeat/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
-##Deathmatch Classic
+## Deathmatch Classic
 > for i in 10 40 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/DeathmatchClassic/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
-##Half-Life: Deathmatch
+## Half-Life: Deathmatch
 > for i in 10 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/HalfLifeDeathmatch/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
-##Opposing Force
+## Opposing Force
 >for i in 10 50 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/OpposingForce/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
-##Ricochet
+## Ricochet
 for i in 10 60 70 90; do wget -q https://raw.githubusercontent.com/dgibbs64/HLDS-appmanifest/master/Ricochet/appmanifest_$i.acf -O appmanifest_$i.acf; done
 
 ##Team Fortress Classic
