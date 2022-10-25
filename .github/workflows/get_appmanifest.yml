@@ -1,0 +1,18 @@
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  push:
+    branches: ["main"]
+
+jobs:
+  counter-strike:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup SteamCMD
+        uses: CyberAndrii/setup-steamcmd@v1.1.4
+
+      - name: Update app
+        run: steamcmd +login anonymous +app_set_config 90 mod "cstrike" +app_update "90" +quit
+
+      - name: Checkout
+        uses: actions/checkout@v3
