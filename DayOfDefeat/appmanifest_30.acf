@@ -1,24 +1,36 @@
 "AppState"
 {
-        "appid"         "30"
-        "Universe"              "1"
-        "name"          "Day of Defeat"
-        "StateFlags"            "68"
-        "installdir"            "Half-Life"
-        "LastUpdated"           "1488687052"
-        "UpdateResult"          "0"
-        "SizeOnDisk"            "391760481"
-        "buildid"               "63575"
-        "LastOwner"             "0"
-        "BytesToDownload"               "0"
-        "BytesDownloaded"               "0"
-        "AutoUpdateBehavior"            "0"
-        "AllowOtherDownloadsWhileRunning"               "0"
-        "UserConfig"
-        {
-        }
-        "MountedDepots"
-        {
-                "31"            "7825843816878535126"
-        }
+	"appid"		"30"
+	"Universe"		"1"
+	"name"		"Day of Defeat"
+	"StateFlags"		"68"
+	"installdir"		"Half-Life"
+	"LastUpdated"		"1688988451"
+	"SizeOnDisk"		"391387184"
+	"StagingSize"		"0"
+	"buildid"		"5424802"
+	"LastOwner"		"0"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"31"
+		{
+			"manifest"		"3826716661969602728"
+			"size"		"391387184"
+		}
+	}
+	"UserConfig"
+	{
+	}
+	"MountedConfig"
+	{
+	}
 }

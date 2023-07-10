@@ -5,7 +5,7 @@
 	"name"		"Half-Life"
 	"StateFlags"		"68"
 	"installdir"		"Half-Life"
-	"LastUpdated"		"1666698834"
+	"LastUpdated"		"1688984413"
 	"SizeOnDisk"		"445136204"
 	"StagingSize"		"0"
 	"buildid"		"5433873"
@@ -34,10 +34,8 @@
 	}
 	"UserConfig"
 	{
-		"betakey"		"public"
 	}
 	"MountedConfig"
 	{
-		"betakey"		"public"
 	}
 }

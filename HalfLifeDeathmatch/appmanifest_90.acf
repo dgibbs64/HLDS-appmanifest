@@ -5,16 +5,16 @@
 	"name"		"Half-Life Dedicated Server"
 	"StateFlags"		"4"
 	"installdir"		"Half-Life"
-	"LastUpdated"		"1666698834"
-	"SizeOnDisk"		"92443098"
+	"LastUpdated"		"1688984301"
+	"SizeOnDisk"		"98310834"
 	"StagingSize"		"0"
 	"buildid"		"5433925"
-	"LastOwner"		"76561199204410603"
+	"LastOwner"		"76561199593999446"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"424836016"
-	"BytesDownloaded"		"424836016"
-	"BytesToStage"		"830195415"
-	"BytesStaged"		"830195415"
+	"BytesToDownload"		"398964256"
+	"BytesDownloaded"		"398964256"
+	"BytesToStage"		"737752317"
+	"BytesStaged"		"737752317"
 	"TargetBuildID"		"5433925"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
@@ -28,8 +28,8 @@
 		}
 		"1006"
 		{
-			"manifest"		"4444585935428744334"
-			"size"		"66706004"
+			"manifest"		"6912453647411644579"
+			"size"		"72573740"
 		}
 	}
 	"SharedDepots"
@@ -40,10 +40,8 @@
 	}
 	"UserConfig"
 	{
-		"mod"		"cstrike"
 	}
 	"MountedConfig"
 	{
-		"mod"		"cstrike"
 	}
 }

@@ -5,11 +5,11 @@
 	"name"		"Half-Life Dedicated Server"
 	"StateFlags"		"4"
 	"installdir"		"Half-Life"
-	"LastUpdated"		"1666697182"
-	"SizeOnDisk"		"92443098"
+	"LastUpdated"		"1688984230"
+	"SizeOnDisk"		"98310834"
 	"StagingSize"		"0"
 	"buildid"		"5433925"
-	"LastOwner"		"76561200676702603"
+	"LastOwner"		"76561201379539094"
 	"UpdateResult"		"0"
 	"BytesToDownload"		"398964256"
 	"BytesDownloaded"		"398964256"
@@ -28,8 +28,8 @@
 		}
 		"1006"
 		{
-			"manifest"		"4444585935428744334"
-			"size"		"66706004"
+			"manifest"		"6912453647411644579"
+			"size"		"72573740"
 		}
 	}
 	"SharedDepots"

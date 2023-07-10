@@ -6,20 +6,19 @@
 	"StateFlags"		"4"
 	"installdir"		"Half-Life"
 	"LastUpdated"		"1666731360"
-	"SizeOnDisk"		"92443098"
+	"SizeOnDisk"		"98310834"
 	"StagingSize"		"0"
 	"buildid"		"5433925"
-	"LastOwner"		"76561201993635199"
+	"LastOwner"		"76561201630089482"
 	"UpdateResult"		"0"
-	"BytesToDownload"		"620292960"
-	"BytesDownloaded"		"620292960"
-	"BytesToStage"		"1153139999"
-	"BytesStaged"		"1153139999"
+	"BytesToDownload"		"618567680"
+	"BytesDownloaded"		"618567680"
+	"BytesToStage"		"1146157312"
+	"BytesStaged"		"1146157312"
 	"TargetBuildID"		"5433925"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
-	"FullValidateAfterNextUpdate"		"1"
 	"InstalledDepots"
 	{
 		"4"
@@ -29,8 +28,8 @@
 		}
 		"1006"
 		{
-			"manifest"		"4444585935428744334"
-			"size"		"66706004"
+			"manifest"		"6912453647411644579"
+			"size"		"72573740"
 		}
 	}
 	"SharedDepots"

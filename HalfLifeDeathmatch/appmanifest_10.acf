@@ -5,7 +5,7 @@
 	"name"		"Counter-Strike"
 	"StateFlags"		"68"
 	"installdir"		"Half-Life"
-	"LastUpdated"		"1666698834"
+	"LastUpdated"		"1688984411"
 	"SizeOnDisk"		"292616113"
 	"StagingSize"		"0"
 	"buildid"		"5424799"
@@ -29,10 +29,8 @@
 	}
 	"UserConfig"
 	{
-		"betakey"		"public"
 	}
 	"MountedConfig"
 	{
-		"betakey"		"public"
 	}
 }

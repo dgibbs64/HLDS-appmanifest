@@ -1,24 +1,36 @@
 "AppState"
 {
-        "appid"         "40"
-        "Universe"              "1"
-        "name"          "Deathmatch Classic"
-        "StateFlags"            "68"
-        "installdir"            "Half-Life"
-        "LastUpdated"           "1488666425"
-        "UpdateResult"          "0"
-        "SizeOnDisk"            "48330722"
-        "buildid"               "98068"
-        "LastOwner"             "0"
-        "BytesToDownload"               "0"
-        "BytesDownloaded"               "0"
-        "AutoUpdateBehavior"            "0"
-        "AllowOtherDownloadsWhileRunning"               "0"
-        "UserConfig"
-        {
-        }
-        "MountedDepots"
-        {
-                "41"            "5349528081776454482"
-        }
+	"appid"		"40"
+	"Universe"		"1"
+	"name"		"Deathmatch Classic"
+	"StateFlags"		"68"
+	"installdir"		"Half-Life"
+	"LastUpdated"		"1688984402"
+	"SizeOnDisk"		"48239254"
+	"StagingSize"		"0"
+	"buildid"		"5424794"
+	"LastOwner"		"0"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"41"
+		{
+			"manifest"		"2010889186716175170"
+			"size"		"48239254"
+		}
+	}
+	"UserConfig"
+	{
+	}
+	"MountedConfig"
+	{
+	}
 }

@@ -1,25 +1,41 @@
 "AppState"
 {
-        "appid"         "70"
-        "Universe"              "1"
-        "name"          "Half-Life"
-        "StateFlags"            "68"
-        "installdir"            "Half-Life"
-        "LastUpdated"           "1488662218"
-        "UpdateResult"          "0"
-        "SizeOnDisk"            "445330938"
-        "buildid"               "392283"
-        "LastOwner"             "0"
-        "BytesToDownload"               "0"
-        "BytesDownloaded"               "0"
-        "AutoUpdateBehavior"            "0"
-        "AllowOtherDownloadsWhileRunning"               "0"
-        "UserConfig"
-        {
-        }
-        "MountedDepots"
-        {
-                "1"             "5409401804038872403"
-                "71"            "778444776426820105"
-        }
+	"appid"		"70"
+	"Universe"		"1"
+	"name"		"appid_70"
+	"StateFlags"		"68"
+	"installdir"		"Half-Life"
+	"LastUpdated"		"1688999004"
+	"SizeOnDisk"		"445136204"
+	"StagingSize"		"0"
+	"buildid"		"5433873"
+	"LastOwner"		"0"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1"
+		{
+			"manifest"		"5928322771446233610"
+			"size"		"429833890"
+		}
+		"71"
+		{
+			"manifest"		"9183617604528345869"
+			"size"		"15302314"
+		}
+	}
+	"UserConfig"
+	{
+	}
+	"MountedConfig"
+	{
+	}
 }
